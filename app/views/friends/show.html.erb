@@ -14,7 +14,7 @@
 
       <hr/> 
 
-      <%= button_to 'Delete', @friend, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-lg" %>
+      <%= link_to 'Delete', @friend, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-lg" %>
       <hr/>
       <%= link_to 'Back', friends_path, class: "btn btn-dark btn-lg" %>
 
